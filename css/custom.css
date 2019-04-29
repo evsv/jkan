@@ -1,0 +1,16 @@
+.navbar-default {
+    background-color: #0198DD;
+    border-color: #0198DD;
+}
+
+.nav.navbar-nav li a{
+    color: white;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
