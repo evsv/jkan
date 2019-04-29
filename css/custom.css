@@ -14,3 +14,20 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+.jumbotron {
+    opacity: 0.7;
+}
+
+.jumbotron::after {
+    content: "";
+    background: url('https://ak5.picdn.net/shutterstock/videos/16408015/thumb/1.jpg');
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
+}
